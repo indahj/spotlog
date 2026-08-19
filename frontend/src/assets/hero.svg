@@ -1,0 +1,66 @@
+<svg viewBox="0 0 440 340" xmlns="http://www.w3.org/2000/svg">
+  <!-- map card -->
+  <rect x="10" y="10" width="420" height="320" rx="28" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5" />
+
+  <!-- winding route connecting the pins -->
+  <path
+    d="M70 260 C 120 220, 100 170, 150 140 S 250 110, 260 150 S 320 190, 340 120"
+    fill="none" stroke="#e5e7eb" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"
+  />
+
+  <!-- cafe pin -->
+  <g transform="translate(58,150) scale(2.1)">
+    <path
+      d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8z"
+      fill="#b45309" stroke="#ffffff" stroke-width="0.6"
+    />
+    <rect x="8.5" y="6.5" width="7" height="5.5" rx="1.4" fill="white" />
+    <path d="M15.5 8 q2.2 0 2.2 2 t-2.2 2" stroke="white" stroke-width="1.1" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- restaurant pin -->
+  <g transform="translate(150,120) scale(2.1)">
+    <path
+      d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8z"
+      fill="#be5b4a" stroke="#ffffff" stroke-width="0.6"
+    />
+    <path d="M8.5 6v3.4 M10 6v3.4 M11.5 6v3.4" stroke="white" stroke-width="1.1" stroke-linecap="round" fill="none" />
+    <path d="M10 9.4v3.6" stroke="white" stroke-width="1.1" stroke-linecap="round" fill="none" />
+    <path d="M14.5 6c0 1.6-1 2.4-1 3.4v4.2" stroke="white" stroke-width="1.1" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- museum pin, marked as visited -->
+  <g transform="translate(250,90) scale(2.1)">
+    <path
+      d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8z"
+      fill="#4a6b63" stroke="#ffffff" stroke-width="0.6"
+    />
+    <path d="M7.5 8.5 12 5.5 16.5 8.5z" fill="white" />
+    <rect x="8" y="9" width="1.3" height="4" fill="white" />
+    <rect x="10.4" y="9" width="1.3" height="4" fill="white" />
+    <rect x="12.8" y="9" width="1.3" height="4" fill="white" />
+    <rect x="15.2" y="9" width="1.3" height="4" fill="white" />
+    <rect x="7.3" y="13.2" width="9.4" height="1.1" fill="white" />
+  </g>
+  <circle cx="266" cy="83" r="10" fill="#2f7a4f" stroke="#ffffff" stroke-width="2" />
+  <path d="M261.5 83l3 3 6-6.5" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- library pin -->
+  <g transform="translate(330,140) scale(2.1)">
+    <path
+      d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8z"
+      fill="#4a5b8c" stroke="#ffffff" stroke-width="0.6"
+    />
+    <path d="M12 6.5v6.5" stroke="white" stroke-width="1.1" stroke-linecap="round" fill="none" />
+    <path d="M12 7c-1.3-1-3-1-4.3-.5v6.5c1.3-.5 3-.5 4.3.5" fill="white" />
+    <path d="M12 7c1.3-1 3-1 4.3-.5v6.5c-1.3-.5-3-.5-4.3.5" fill="white" />
+  </g>
+
+  <!-- polaroid, hinting at visit photos -->
+  <g transform="translate(94,238) rotate(-8)">
+    <rect x="0" y="0" width="58" height="66" rx="4" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.2" />
+    <rect x="6" y="6" width="46" height="40" rx="2" fill="#efe3d3" />
+    <path d="M9 40 L22 24 L31 33 L38 24 L49 40 Z" fill="#c4906a" opacity="0.85" />
+    <circle cx="17" cy="16" r="4.5" fill="#e8b95c" />
+  </g>
+</svg>
