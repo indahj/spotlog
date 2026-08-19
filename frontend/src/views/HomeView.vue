@@ -1,15 +1,12 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 
-const area = ref("");
-const query = ref("");
-const showMap = ref(false);
+const area = ref("")
 
 </script>
 
 <template>
   <div class="container">
-    <HeroBanner />
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Jakarta, one place at a time</p>
